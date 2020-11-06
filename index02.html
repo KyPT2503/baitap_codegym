@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <style>
+        body
+        {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+        fieldset
+        {
+            width:400px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+
+    <section>
+        <fieldset>
+            <h1>Order Form</h1>
+            <form action="" method="get">
+                <h3>What would you like to buy ?</h3>
+                <select name="liketobuy" id="liketobuy">
+                    <option value="  ">A</option>
+                    <option value="">B (+0.5$)</option>
+                    <option value="">C (+0.5$)</option>
+                </select>
+                <h3>How many would you like to order?</h3>
+                <div>
+                    <input type="radio" id="money1" name="money">
+                    <label for="money1">1-$10</label><br>
+                    <input type="radio" id="money2" name="money">
+                    <label for="money2">2-$20</label><br>
+                    <input type="radio" id="money3" name="money">
+                    <label for="money3">3-$30</label><br>
+                </div>
+                <h3>Name <span style="color:red">*</span></h3>
+                <label for="firstname"></label>
+                <input type="text" name="firstname" id="firstname" value="" placeholder="First Name" size="15">
+                <label for="lastname"></label>
+                <input type="text" name="lastname" id="lastname" value="" placeholder="Last Name" size="15">
+                <h3>Email</h3>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" size="35">
+                <h3>Phone Number</h3>
+                <input type="text" id="leftPhonenumber" name="phonenumber" size="5">-
+                <input type="text" id="midPhonenumber" name="phonenumber" size="5">-
+                <input type="text" id="rightPhonenumber" name="phonenumber" size="5"><br><br>
+                <input type="submit" value="Add a submittion">
+            </form>
+        </fieldset>
+    </section>
+
+    <footer></footer>
+</body>
+</html>
